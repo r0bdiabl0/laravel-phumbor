@@ -16,7 +16,7 @@ Once installed, register the service provider with your Laravel application. Upd
 
 	'providers' = array(
 		// existing providers
-		R0bdiabl0\LaravelPhumbor\Laravel5PhumborServiceProvider::class,
+		R0bdiabl0\Laravel5Phumbor\Laravel5PhumborServiceProvider::class,
 	);
 
 and register the facade in the `aliases` section:
