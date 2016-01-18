@@ -1,9 +1,9 @@
-<?php namespace Ceejayoz\LaravelPhumbor;
+<?php namespace R0bdiabl0\Laravel5Phumbor;
 
 use Config;
 use Illuminate\Support\ServiceProvider;
 
-class LaravelPhumborServiceProvider extends ServiceProvider {
+class Laravel5PhumborServiceProvider extends ServiceProvider {
 
 	/**
 	 * Indicates if loading of the provider is deferred.
@@ -19,7 +19,9 @@ class LaravelPhumborServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('ceejayoz/laravel-phumbor');
+		$this->publishes([
+			__DIR__.'/../../config/config.php' => config_path('laravel5-phumbor.php'),
+		]);
 	}
 
 	/**
@@ -30,7 +32,7 @@ class LaravelPhumborServiceProvider extends ServiceProvider {
 	public function register()
 	{
 		$this->app['phumbor'] = $this->app->share(function($app) {
-			return \Thumbor\Url\BuilderFactory::construct(Config::get('laravel-phumbor::server'), Config::get('laravel-phumbor::key'));
+			return \Thumbor\Url\BuilderFactory::construct(Config::get('laravel5-phumbor::server'), Config::get('laravel5-phumbor::key'));
 		});
 	}
 

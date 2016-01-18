@@ -1,4 +1,4 @@
-<?php namespace Ceejayoz\LaravelPhumbor\Facades;
+<?php namespace R0bdiabl0\Laravel5Phumbor\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
