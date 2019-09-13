@@ -31,7 +31,7 @@ class Laravel5PhumborServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		$this->app['phumbor'] = $this->app->share(function($app) {
+		$this->app->singleton('phumbor', function($app) {
 			return \Thumbor\Url\BuilderFactory::construct(Config::get('laravel5-phumbor.server'), Config::get('laravel5-phumbor.key'));
 		});
 	}
