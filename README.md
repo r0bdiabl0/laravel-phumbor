@@ -8,7 +8,7 @@ Installation
 
 Simply require the package in your `composer.json` file:
 
-    "r0diabl0/laravel5-phumbor": "dev-master"
+    "r0bdiabl0/laravel5-phumbor": "dev-master"
 
 Run `composer install` to download the package and have the autoloader updated.
 
