@@ -1,7 +1,9 @@
-Phumbor for Laravel 5
+Phumbor for Laravel 5/6
 =====================
 
 This Laravel package adds support for [the 99designs PHP interface](https://github.com/99designs/phumbor) to the [globocom Thumbor thumbnail service](https://github.com/globocom/thumbor).
+
+It is compatible with Laravel 5+ and Laravel 6+.
 
 Installation
 ------------
