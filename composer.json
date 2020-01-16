@@ -11,17 +11,27 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0",
+        "php": ">=5.5.0",
         "illuminate/support": "5.*|6.*",
         "99designs/phumbor": "^1.2"
     },
+    "require-dev": {
+        "graham-campbell/testbench": "^4.0"
+    },
     "autoload": {
-        "classmap": [
-            "src/migrations"
-        ],
         "psr-0": {
             "R0bdiabl0\\Laravel5Phumbor": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "R0bdiabl0\\Laravel5Phumbor\\Laravel5PhumborServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "R0bdiabl0\\Laravel5Phumbor\\Phumbor"
+            }
+        }
+    }
 }
