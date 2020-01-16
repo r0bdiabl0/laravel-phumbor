@@ -49,6 +49,6 @@ class FacadeTest extends AbstractPackageTestCase
 
     protected function getPackageAliases($app)
     {
-        return ['Phumbor' => \R0bdiabl0\LaravelPhumbor\Facades\Phumbor::class];
+        return ['Phumbor' => \R0bdiabl0\Laravel5Phumbor\Facades\Phumbor::class];
     }
 }

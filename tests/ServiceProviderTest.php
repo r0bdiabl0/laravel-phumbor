@@ -1,7 +1,7 @@
 <?php
 
 namespace R0bdiabl0\Laravel5Phumbor\Tests;
-// use Orchestra\Testbench\TestCase;
+
 use GrahamCampbell\TestBench\AbstractPackageTestCase;
 
 class ServiceProviderTest extends AbstractPackageTestCase
