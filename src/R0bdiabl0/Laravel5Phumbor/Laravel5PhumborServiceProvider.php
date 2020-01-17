@@ -46,7 +46,7 @@ class Laravel5PhumborServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return array();
+        return ['phumbor'];
     }
 
 }
