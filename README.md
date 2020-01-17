@@ -10,7 +10,7 @@ Installation
 
 Simply run this command in your project root:
 
-    composer require r0bdiabl0/laravel5-phumbor
+    composer require r0bdiablo/laravel5-phumbor
 or require the package in your `composer.json` file:
 
     "r0bdiabl0/laravel5-phumbor": "^1.0"
