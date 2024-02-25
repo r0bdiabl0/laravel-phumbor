@@ -4,7 +4,7 @@ This Laravel package adds support for [the 99designs PHP interface](https://gith
 
 It is compatible with Laravel 5+.
 
-PHP 7.1+
+Requires PHP 7.1+.
 
 ## Installation
 
