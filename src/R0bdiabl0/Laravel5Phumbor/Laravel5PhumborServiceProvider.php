@@ -1,5 +1,4 @@
 <?php
-
 namespace R0bdiabl0\Laravel5Phumbor;
 
 use Config;
@@ -7,7 +6,6 @@ use Illuminate\Support\ServiceProvider;
 
 class Laravel5PhumborServiceProvider extends ServiceProvider
 {
-
     /**
      * Indicates if loading of the provider is deferred.
      *
@@ -48,5 +46,4 @@ class Laravel5PhumborServiceProvider extends ServiceProvider
     {
         return ['phumbor'];
     }
-
 }
